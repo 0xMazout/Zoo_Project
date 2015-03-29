@@ -10,22 +10,22 @@ package zoo_project;
  * @author LFA
  */
 public class Espece {
-    protected String nom ;
-    protected String cri ;
+    private String nom ;
+    private String cri ;
           
     //Constructor of Espece
-    public Espece(String SonNom ,String SonCri){
-        this.nom = SonNom;
-        this.cri = SonCri;
+    public Espece(String sonNom, String sonCri){
+        sonNom = nom;
+        sonCri = cri;
     }
     
     //Return nom of Espece
     public String getNom(){
-        return this.nom ;
+        return nom ;
     }
     //Return cri of Espece
     public String getCri(){
-        return this.cri ;
+        return cri ;
     }
 
 }
